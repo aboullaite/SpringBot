@@ -46,7 +46,7 @@ public class CallBackHandler {
     private final MessengerSendClient sendClient;
 
     /**
-     * Constructs the {@code MessengerPlatformCallbackHandler} and initializes the {@code MessengerReceiveClient}.
+     * Constructs the {@code CallBackHandler} and initializes the {@code MessengerReceiveClient}.
      *
      * @param appSecret   the {@code Application Secret}
      * @param verifyToken the {@code Verification Token} that has been provided by you during the setup of the {@code
@@ -129,7 +129,7 @@ public class CallBackHandler {
 
 
                     case "yo":
-                        sendTextMessage(senderId, "Hello, What I can do for you ? Type the word you'r looking for");
+                        sendTextMessage(senderId, "Hello, What I can do for you ? Type the word you're looking for");
                         break;
 
                     case "great":
@@ -209,8 +209,6 @@ final List<Button> searchLink = Button.newListBuilder()
                 .build();
 
         this.sendClient.sendTemplate(recipientId, genericTemplate);
-
-        //this.sendClient.sendTextMessage(recipientId, "");
     }
 
     private void sendGifMessage(String recipientId, String gif) throws MessengerApiException, MessengerIOException {
