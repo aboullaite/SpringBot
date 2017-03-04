@@ -1,7 +1,7 @@
 # SpringBot
 Messenger Bot that, based on typed text, query spring documentation and return 3 first results. Read this blog post for more details: https://aboullaite.me/my-first-java-bot/
 
-![](http://i.giphy.com/l4FGqCEJjQhUJl1LO.gif)
+![](http://i.giphy.com/l0IymLb7VE5KobYXu.gif)
 
 ### Run the App
 First thing you need to do is to setup a Facebook app, Please follow this [link](https://developers.facebook.com/docs/messenger-platform/guides/setup) for more details. You'll need also a free hosting service like [Heroko](https://www.heroku.com/) or [Clever Cloud](https://www.clever-cloud.com/), or you can simply use [NGROK](https://ngrok.com/). and don't forget to create a [Facebook page](https://www.facebook.com/pages/create).
