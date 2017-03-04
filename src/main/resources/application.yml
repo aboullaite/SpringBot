@@ -1,0 +1,10 @@
+messenger4j:
+  appSecret:
+  verifyToken :
+  pageAccessToken:
+
+logging:
+  level:
+    com:
+      github:
+        messenger4j: INFO
